@@ -13,7 +13,7 @@ header={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.
 
 ###主函数
 def main():
-    outputFile = open("reshou.html", 'a')
+    outputFile = open("resou.html", 'a')
     sys.stdout = outputFile
     print()
     print(strftime("%Y-%m-%d %H:%M:%S", localtime()))
